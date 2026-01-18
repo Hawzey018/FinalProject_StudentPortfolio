@@ -1,4 +1,4 @@
-**Laboratory Activity 5: Arduino Serial Communication with Python**
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::**Laboratory Activity 5: Arduino Serial Communication with Python**::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Overview
 
