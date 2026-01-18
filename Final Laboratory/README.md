@@ -1,10 +1,11 @@
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::COSC 111B - FINAL EXAMINATION:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 **Overview**
 
 This project demonstrates a bridge between Arduino hardware and a remote API using Python. A push button on the Arduino sends a signal via Serial to a Python client, which then triggers an HTTP request to control LEDs on another Arduino or IoT device.
 
 The Arduino does not interact with the API directly; it only sends signals to the Python program. The Python client handles serial input, debouncing, and sends HTTP requests to a predefined endpoint.
-
+_____________________________________________________________________________________________________________
 **Objectives**
 
 - Understand Arduino Serial communication and push button handling.
@@ -16,7 +17,7 @@ The Arduino does not interact with the API directly; it only sends signals to th
 - Normalize serial input to ensure case-insensitive handling.
 
 - Build a reliable, non-terminating system for IoT control.
-
+_____________________________________________________________________________________________________________
 **Hardware Used**
 
 - Arduino MCU
@@ -32,7 +33,8 @@ _**Component	Pin**_
 - Push Button	e.g., 12
 - GND	GND
 - VCC	5V (through resistor if needed)
-  
+
+_____________________________________________________________________________________________________________
 **Implementation Details**
 - Arduino Requirements
 
@@ -45,6 +47,7 @@ _**Component	Pin**_
 - The signal must indicate the group number assigned to the Arduino setup.
 
 - No HTTP requests or LED control should occur directly on the Arduino.
+_____________________________________________________________________________________________________________
 
 **Python Client Requirements**
 
@@ -73,7 +76,7 @@ _**Component	Pin**_
 - Long button presses must not generate repeated API calls.
 
 - Serial input validation is required; invalid inputs should produce error messages.
-
+_____________________________________________________________________________________________________________
 **Key Concepts Demonstrated**
 
 - Push button input handling on Arduino
