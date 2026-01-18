@@ -1,4 +1,4 @@
-**Laboratory Activity 6: Bidirectional Control Using Arduino and Python**
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::**Laboratory Activity 6: Bidirectional Control Using Arduino and Python**::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 **Overview**
 
